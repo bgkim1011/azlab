@@ -12,6 +12,6 @@ variable "rg_info" {
 variable "rg_location" {
     description = "location of resource group"
     type = string
-    default = {}
+    default = "Korea Central"
 
 }
