@@ -4,6 +4,7 @@ module "rg" {
     source = "../modules/rg"
 
     rg_info = local.rg_info
+    rg_location = local.location
 
     tags = {
       servicetitle = local.tags.ServiceName

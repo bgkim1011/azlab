@@ -6,6 +6,12 @@ variable "tags" {
 
 variable "rg_info" {
     description = "information of resource group"
-    type = map(any)
+    type = set(string)
+    default = []
+
+variable "rg_location" {
+    description = "location of resource group"
+    type = string
     default = {}
+}
 }
